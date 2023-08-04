@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    l=[]
+    for i in range(0,len(list1)):
+        l.append(list1[i].capitalize())
+    return l
+print(main(list1=['rustam','diyor','alisher']))
