@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    i=0
+    sum=0
+    for i in range(A-1,B-1):
+        i+=1
+        sum+=i
+    return sum
+print(main(3,6))
